@@ -10,13 +10,13 @@ const Inspector = ({ attributes, setAttributes }) => {
 
 	return (
 		<InspectorControls>
-			<PanelBody title={__('Test Block Settings', 'boilerplate')}>
+			<PanelBody title={__('Test Block Settings', 'block-core')}>
 				<TextControl
 					label={__('Content')}
 					value={content}
 					onChange={(v) => setAttributes({ content: v })}
 				/>
-				<BaseControl label={__('Color', 'boilerplate')} id="color">
+				<BaseControl label={__('Color', 'block-core')} id="color">
 					<ColorPalette
 						colors={[
 							{ name: 'red', color: '#f00' },

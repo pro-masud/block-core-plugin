@@ -30,8 +30,8 @@ if( ! class_exists( 'Boilerplate_Blocks_Category' ) ) {
             return array_merge(
                 array(
                     array(
-                        'slug'  => 'boilerplate',
-                        'title' => __( 'Boilerplate', 'boilerplate' ),
+                        'slug'  => 'block-core',
+                        'title' => __( 'Boilerplate', 'block-core' ),
                     ),
                 ),
                 $categories,

@@ -1,14 +1,14 @@
 <?php
 /**
  * Register Dynamic Styles for Blocks
- * @package Boilerplate
+ * @package BlockPluginCore
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-if( ! class_exists( 'Boilerplate_Dynamic_Style' ) ) {
+if( ! class_exists( 'BlockPluginCore_Dynamic_Style' ) ) {
 
-    class Boilerplate_Dynamic_Style {
+    class BlockPluginCore_Dynamic_Style {
         
         /**
          * Constructor
@@ -47,4 +47,4 @@ if( ! class_exists( 'Boilerplate_Dynamic_Style' ) ) {
     }
 }
 
-new Boilerplate_Dynamic_Style(); // Initialize the class instance
+new BlockPluginCore_Dynamic_Style(); // Initialize the class instance
